@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond&family=Noto+Sans+JP&family=Noto+Sans+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fececd;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+header {
+    background-color: #B82724;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #fececd;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+}
+
+button {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #951E23;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #872416;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #951E23;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #872416;
+}
+
+footer {
+    background-color: #B82724;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#mainMenu {
+    background-image: url('assets/cherry_blossoms.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#about {
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+#devs {
+    padding: 20px;
+    text-align: center;
+}
+
+#devs h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#devs p {
+    margin-bottom: 15px;
+}
+
+#row {
+    border: 1px solid #951E23;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#row h2 {
+    font-size: 24px;
+}
+
+#row h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#row p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#outlines, #art, #misc {
+    text-align: center;
+}
+
+#outlines img, #art img, #misc img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+#wordsUsed {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#listContainer {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text {
+    background: rgba(255, 122, 89, .75);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Nihon Quest Demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <img src="assets/nihon_quest_logo.png" alt="Game logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="bts.html">Behind the Scenes</a>
+            </nav>
+        </header>
+        <div id="listContainer">
+            <h3 id="wordsUsed">Words Used in This Chapter</h3>
+            <div class="columns">
+            <ul id="japaneseList1" class="column">
+                    <li><button onclick="konnichiwa.play()">Konnichiwa</button></li>
+                    <li><button onclick="ohayou.play()">Ohayou gozaimasu</button></li>
+                    <li><button onclick="kombanwa.play()">Kombanwa</button></li>
+                    <li><button onclick="oyasumi.play()">Oyasumi nasai</button></li>
+                    <li><button onclick="eigoOHanasemasu.play()">Eigo o hanasemasu</button></li>
+                </ul>
+                <ul id="japaneseList2" class="column">
+                    <li><button onclick="nihongoGa.play()">Nihongo ga sukoshi shika hanasemasen</button></li>
+                    <li><button onclick="wakarimasen.play()">Wakarimasen</button></li>
+                    <li><button onclick="mouIchido.play()">Mou ichido onegai</button></li>
+                    <li><button onclick="mottoYukkuri.play()">Motto yukkuri hanashite kudasai</button></li>
+                    <li><button onclick="soreWo.play()">Sore o eigo de iu to?</button></li>
+                </ul>
+            </div>
+        </div>
+        <div id="canvasContainer">
+            <canvas id="gameCanvas"></canvas>
+        </div>
+        <script src="gameScript.js"></script>
+    </body>
+</html>
